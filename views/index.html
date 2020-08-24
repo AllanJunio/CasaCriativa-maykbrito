@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section id="intro">
+                
+    <header>
+        <a href="/">
+            <img src="logo.png" alt="Imagem da LogoMarca">
+        </a>
+    </header>
+
+    <main>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+
+        <p><strong>Soluta dolore autem reiciendis</strong> similique inventore vel aut architecto deserunt. 
+
+        <p>Rerum sint eveniet illum ducimus voluptate. Laudantium enim eos molestiae cupiditate exercitationem!</p>
+
+    </main>
+
+    <section id="buttons">
+        <button onclick="onOff()">+ Adicionar Ideias </button>
+        <a href="/ideias" class="button"> Ver Ideias </a>
+    </section>
+   
+
+    <footer>
+        Com ❤ <a href="https://rocketseat.com.br/" target="_blank">Rocket</a>
+    </footer>
+   
+
+
+</section>
+
+    <section id="last-ideias">
+
+        {% include "all_ideas.html" %}
+      
+    </section>
+
+{% endblock %}
