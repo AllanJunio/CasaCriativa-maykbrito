@@ -5,7 +5,7 @@
 </p>
 
 <h2>
-  Linguagens utilizadas: 
+  Linguagens/Softwares/Bibliotecas utilizadas: 
 </h2>
  
 <ul>
